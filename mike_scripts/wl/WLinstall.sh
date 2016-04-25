@@ -73,7 +73,7 @@ install_jdk() {
  
 install_weblogic() {
     echo 'INSTALLING WEBLOGIC SERVER'
-    ${JAVA_HOME}/bin/java -Xms512m -Xmx512m -jar ${SOFTWARE_DIRECTORY}/${WEBLOGIC_FILE_NAME} -silent -response ${TEMPORARY_DIRECTORY}/silent-weblogic.txt -invPtrLoc ${TEMPORARY_DIRECTORY}/oraInst.loc
+    ${JAVA_HOME}/bin/java -Xms512m -Xmx512m -jar ${SOFTWARE_DIRECTORY}/${WEBLOGIC_FILE_NAME} -silent -novalidation -response ${TEMPORARY_DIRECTORY}/silent-weblogic.txt -invPtrLoc ${TEMPORARY_DIRECTORY}/oraInst.loc
 }
  
 create_silent_install_files

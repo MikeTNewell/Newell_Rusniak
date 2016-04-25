@@ -17,11 +17,11 @@ TEMPORARY_DIRECTORY="${SOFTWARE_DIRECTORY}"
 export TEMPORARY_DIRECTORY
  
 # Base directory
-BASE_DIRECTORY="/data/app/oracle"
+BASE_DIRECTORY="/data/app"
 export BASE_DIRECTORY
  
 # Directory that will used for the installation and configuration
-RUNTIME_HOME="${BASE_DIRECTORY}"
+RUNTIME_HOME="${BASE_DIRECTORY}/wl_12.2.1"
 export RUNTIME_HOME
  
 # Directory where the JVM will be installed
